@@ -1,9 +1,7 @@
 
 Listen 8080
 <VirtualHost *:8080>
-	ServerName geoserver.py
 	ServerAdmin webmaster@localhost
-
 
 	DocumentRoot /var/www/Geo-server/html
 	<Directory /var/www/Geo-server/html>
