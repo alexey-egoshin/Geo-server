@@ -1,6 +1,8 @@
 
 Listen 8080
-<VirtualHost *:8080>
+ServerName 127.0.0.1
+
+<VirtualHost *:6969>
 	ServerAdmin webmaster@localhost
 
 	DocumentRoot /var/www/Geo-server/html
