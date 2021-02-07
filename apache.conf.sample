@@ -1,9 +1,10 @@
 
 Listen 8080
-ServerName 127.0.0.1
 
-<VirtualHost *:6969>
+<VirtualHost 127.0.0.1:8080>
 	ServerAdmin webmaster@localhost
+	ServerName waronmap.com
+	ServerAlias localhost
 
 	DocumentRoot /var/www/Geo-server/html
 	<Directory /var/www/Geo-server/html>
